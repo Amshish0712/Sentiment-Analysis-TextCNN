@@ -1,0 +1,60 @@
+/* Background gradient */
+.bg-dark-gradient {
+  background: linear-gradient(135deg, #1e1e2f, #343454);
+  color: #fff;
+}
+
+/* Card fade-in effect */
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Card styling */
+.card {
+  border: none;
+  border-radius: 1rem;
+  background-color: #ffffff;
+}
+
+/* Sentiment colors */
+.sentiment-positive {
+  color: #2ecc71;
+}
+.sentiment-negative {
+  color: #e74c3c;
+}
+.sentiment-neutral {
+  color: #f1c40f;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #5865f2;
+  border-color: #5865f2;
+  font-weight: 500;
+}
+.btn-primary:hover {
+  background-color: #4752c4;
+  border-color: #4752c4;
+}
+
+/* Progress bar */
+.progress {
+  background-color: #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress-bar {
+  background-color: #5865f2;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  opacity: 0.8;
+}
